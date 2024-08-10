@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="./cadastre.css">
+    <link rel="icon" href="./criazbr.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+      <style>
+         .search-container {
+            position: relative;
+            display: inline-block;
+        }
+
+        .search-container input[type="text"] {
+            width: 200px;
+            padding: 10px 20px 10px 40px; /* Adicione padding à esquerda para o ícone */
+            border-radius: 20px;
+            border: 1px solid #ccc;
+            outline: none;
+            transition: border-color 0.3s;
+        }
+
+        .search-container input[type="text"]:focus {
+            border-color: #666;
+        }
+
+        .search-container .fa-search {
+            position: absolute;
+            left: 10px; /* Posicione o ícone à esquerda */
+            top: 50%;
+            transform: translateY(-50%);
+            color: #aaa;
+            pointer-events: none; /* Faça com que o ícone não interfira na interação do input */
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <h2>Cria<span class="corzinha">z</span><span class="Br">BR</span></h2>
+        <ul class="nav-links">
+            <li><a href="./index.html">Página Inicial</a></li>
+            <li><a href="#freelancer">Freelancer</a></li>
+            <div class="dropdown">
+                <li><a href="">Categorias</a></li>
+                <div class="dropdown-content">
+                  <a href="#">Grafitti</a>
+                  <a href="#">Realismo</a>
+                  <a href="#">Cartoon</a>
+                  <a href="#">Anime e Mangá</a>
+                  <a href="#">Chibi</a>
+                </div>
+              </div>
+          
+            <li><a href="./cadastre.html">Cadastre-se</a></li>
+            <li><a href="#anchor">Sobre Nós</a></li>
+
+        </ul>
+        <nav>
+            <!-- Outros elementos do menu -->
+            <div class="search-container">
+                <i class="fa fa-search"></i>
+                <input type="text" placeholder="Pesquisar...">
+            </div>
+        </nav>
+       <div class="drop">
+  <button class="dropbtn">
+    seu perfil
+  </button>
+  <div class="dropdown-input">
+    <a href="#">Perfil</a>
+    <a href="#">Suas artes</a>
+    <a href="#">Configurações</a>
+  </div>
+</div>
+    </nav>
+    <br>
+   
+    <div class="login-container">
+       <h3>Faça o seu login</h3>
+        <form>
+            <input type="text" name="username" placeholder="Usuário" required>
+            <input type="password" name="password" placeholder="Senha" required>
+            <button type="submit">Entrar</button>
+        </form>
+        <br>
+        <a href="#">Esqueceu sua senha?</a>
+    </div>
+    
+
+</body>
+</html>

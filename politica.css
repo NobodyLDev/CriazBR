@@ -1,0 +1,131 @@
+body{
+    background-color: rgb(226, 223, 216);
+   
+}
+.nomezinho{
+    color: #e8ac13;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: 2em;
+    text-align: center;
+}
+
+.corzinha{
+    color: darkgreen;
+}
+.Br{
+color: blue;
+}
+h2{
+    text-align: center;
+    color: #d69e0f;
+}
+h1{
+    color: #d69e0f;
+}
+footer{
+    background-color: #f2a900; /* Cor de fundo amarela */
+    padding: 10px 0;
+    text-align: center;
+
+}
+button {
+    background-color: #e8ac13;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: 0.2s;
+}
+button:hover {
+    transform: translateY(-5px);
+    background-color: #c09015;
+}
+.buttons{
+    text-align: center;
+    align-items: center;
+}
+
+.footer {
+    background-color: #f2a900; /* Cor de fundo amarela */
+    padding: 10px 0;
+    text-align: center;
+
+  }
+.footer a {
+    display: inline-block;
+    margin: 0 10px; /* Espaçamento entre os elementos */
+}
+  
+.footer a {
+    color: black; /* Cor do texto do link */
+    text-decoration: none;
+    padding: 10px 0;
+}
+.cor{
+    color: black;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(210, 207, 199);
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.logo {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #d4a017;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav-links a {
+    color: #333;
+    text-decoration: none;
+    padding: 5px 15px;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-links a:hover {
+    background-color: #d4a017;
+    color: #fff;
+    transform: translateY(-5px);
+
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    padding: 15px 100px;
+    position: relative;
+}
+
+.search-box input {
+    padding: 15px 100px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    outline: none;
+    transition: border-color 0.2s ease;
+}

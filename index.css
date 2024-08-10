@@ -1,0 +1,216 @@
+body {
+    background-color: rgb(226, 223, 216);
+    align-items: center;
+    text-align: center;
+}
+h1 {
+    color: #e8ac13;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: 3em;
+}
+
+button {
+    background-color: #e8ac13;
+    /* background-color: #ff6347;  Tomate */
+    border: none;
+    border-radius: 15px;
+    /* Bordas arredondadas */
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* Sombra */
+    transition: 0.2s;
+}
+img {
+    border-radius: 20px;
+    align-items: center;
+}
+.corzinha {
+    color: darkgreen;
+}
+
+.Br {
+    color: blue;
+}
+
+.footer {
+    background-color: #f2a900;
+    /* Cor de fundo amarela */
+    padding: 10px 0;
+    text-align: center;
+}
+
+.footer a {
+    display: inline-block;
+    margin: 0 10px;
+    /* Espaçamento entre os elementos */
+}
+
+.footer a {
+    color: black;
+    /* Cor do texto do link */
+    text-decoration: none;
+    padding: 10px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(210, 207, 199);
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.logo {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #d4a017;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav-links a {
+    color: #333;
+    text-decoration: none;
+    padding: 5px 15px;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-links a:hover {
+    background-color: #d4a017;
+    color: #fff;
+    transform: translateY(-5px);
+
+}
+
+h2 {
+    color: #e8ac13;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: 2em;
+}
+
+.letraComeço {
+    color: #000000;
+}
+.search-container input[type="text"] {
+    width: 200px;
+    padding: 10px 20px 10px 40px; /* Adicione padding à esquerda para o ícone */
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.search-container input[type="text"]:focus {
+    border-color: #2b2a2a;
+}
+
+.search-container .fa-search {
+    position: absolute;
+    left: 10px; /* Posicione o ícone à esquerda */
+    top: 50%;
+    transform: translateY(-50%);
+    color: #aaa;
+    pointer-events: none; /* Faça com que o ícone não interfira na interação do input */
+}
+/* Estilo do botão */
+.dropbtn {
+    background-color: #d4a017;
+    border: none;
+    cursor: pointer;
+    padding: 20px;
+    font-size: 16px;
+  }
+  
+  /* Container do dropdown */
+  .drop {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Conteúdo do dropdown */
+  .dropdown-input {
+    display: none;
+    position: absolute;
+    background-color: rgb(226, 223, 216);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links dentro do dropdown */
+  .dropdown-input a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Mostrar o dropdown quando o botão é clicado */
+  .drop:hover .dropdown-input {
+    display: block;
+  }
+  
+  /* Estilo para os links quando o mouse passa sobre eles */
+  .dropdown-input a:hover {
+    background-color: #d4a017;
+    color:#fff;
+    border-radius: 20px;
+    
+}
+
+  /* Container do dropdown */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Conteúdo do dropdown */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(226, 223, 216);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links dentro do dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Mostrar o dropdown quando o botão é clicado */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Estilo para os links quando o mouse passa sobre eles */
+  .dropdown-content a:hover {
+    background-color: #d4a017;
+    color:#fff;
+  }
+  
+  
